@@ -28,8 +28,13 @@ $H_0$: There is no difference between the average number of pushups of line vs s
 $H_A$: The average number of pushups done by line players is statistically different than that of skill players.
 
 # Methods
+```{r}
+plot(momheight~Sex,data=davisdata)
+```
+
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+
 
 # Results
 
