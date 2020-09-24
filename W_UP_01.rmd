@@ -28,9 +28,7 @@ $H_0$: There is no difference between the average number of pushups of line vs s
 $H_A$: The average number of pushups done by line players is statistically different than that of skill players.
 
 # Methods
-```{r}
-plot(momheight~Sex,data=davisdata)
-```
+
 
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
@@ -60,8 +58,10 @@ favstats(pushups~position,data=mydata)
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-
+p=.000009421
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
+The data rejects the null and supports the alternate  
+hypothesis that skilled players are able to complete more pushups.     
+  
